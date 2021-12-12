@@ -25,11 +25,3 @@ cat >>/etc/hosts<<EOF
 172.16.16.21   kworker1.example.com    kworker1
 172.16.16.31   lbmaster.example.com    lbmaster
 EOF
-
-# Change nameserver 
-echo "Change nameserver"
-systemctl disable systemd-resolved
-systemctl stop systemd-resolved
-sed -i 's/nameserver.*/nameserver 172.16.16.1/' /etc/resolv.conf
-
-echo "Success $(hostname) has been provisioned"

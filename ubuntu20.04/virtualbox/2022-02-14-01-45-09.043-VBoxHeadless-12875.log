@@ -1,0 +1,12 @@
+Log created: 2022-02-14T01:45:09.437315000Z
+Process ID:  12875 (0x324b)
+Parent PID:  1 (0x1)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: virtualbox_default_1644772271511_40726
+Arg[3]: --startvm
+Arg[4]: 8d539f36-06a4-4ef4-a69b-179e8e06a004
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2

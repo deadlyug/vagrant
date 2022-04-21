@@ -1,0 +1,12 @@
+Log created: 2022-02-13T16:35:09.273799000Z
+Process ID:  672266 (0xa420a)
+Parent PID:  1 (0x1)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: ubuntu1
+Arg[3]: --startvm
+Arg[4]: 9271b763-00a6-4b13-887c-30adaa3b8b7c
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2
